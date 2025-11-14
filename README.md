@@ -36,64 +36,39 @@
 
 ## ✨ Features
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎬 Silky Animations
 ```
-⚡ GSAP-powered transitions
-🎪 ScrollTrigger magic
-🌊 Smooth page routing
-🎭 Cinematic stair effects
-📜 Frame-by-frame sequences
-🎯 Interactive micro-interactions
-```
+🎬  SILKY ANIMATIONS
+    ⚡ GSAP-powered transitions
+    🎪 ScrollTrigger magic
+    🌊 Smooth page routing
+    🎭 Cinematic stair effects
+    📜 Frame-by-frame sequences
+    🎯 Interactive micro-interactions
 
-</td>
-<td width="50%" valign="top">
+🚀  BLAZING PERFORMANCE
+    🖼️ Lazy-loaded images
+    ⚙️ Smart code splitting
+    📦 WebP compression
+    🎥 Optimized video loading
+    ⚡ Lightning-fast builds
+    🎯 Sub-second page loads
 
-### 🚀 Blazing Performance
-```
-🖼️ Lazy-loaded images
-⚙️ Smart code splitting
-📦 WebP compression
-🎥 Optimized video loading
-⚡ Lightning-fast builds
-🎯 Sub-second page loads
-```
+💎  MODERN DESIGN
+    📱 Fully responsive
+    🎨 Polished UI/UX
+    🌈 Custom animations
+    ✨ Interactive elements
+    🎯 Pixel-perfect layouts
+    🖌️ Typography excellence
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 💎 Modern Design
+🛠️  DEV EXPERIENCE
+    🔥 HMR enabled
+    📝 ESLint configured
+    🎯 React 19 features
+    🧩 Component-based
+    📐 Clean architecture
+    🔧 Easy customization
 ```
-📱 Fully responsive
-🎨 Polished UI/UX
-🌈 Custom animations
-✨ Interactive elements
-🎯 Pixel-perfect layouts
-🖌️ Typography excellence
-```
-
-</td>
-<td width="50%" valign="top">
-
-### 🛠️ Dev Experience
-```
-🔥 HMR enabled
-📝 ESLint configured
-🎯 React 19 features
-🧩 Component-based
-📐 Clean architecture
-🔧 Easy customization
-```
-
-</td>
-</tr>
-</table>
 
 <br />
 
@@ -143,14 +118,14 @@
 
 <br />
 
-| 🎯 Technology | 📦 Purpose | 🔢 Version |
-|:------------:|:-----------|:---------:|
-| ⚛️ **React** | UI Framework & Component Architecture | `19.1.1` |
-| ⚡ **Vite** | Lightning-Fast Build Tool & Dev Server | `7.1.7` |
-| 🎨 **Tailwind CSS** | Utility-First CSS Framework | `4.1.14` |
-| 🎬 **GSAP** | Professional Animation Library | `3.13.0` |
-| 🧭 **React Router** | Single Page App Routing | `7.9.4` |
-| 🖼️ **Sharp** | High-Performance Image Processing | `0.34.4` |
+| Technology | Version | Purpose |
+|:-----------|:-------:|:--------|
+| ⚛️ **React** | `19.1.1` | UI Framework & Component Architecture |
+| ⚡ **Vite** | `7.1.7` | Lightning-Fast Build Tool & Dev Server |
+| 🎨 **Tailwind CSS** | `4.1.14` | Utility-First CSS Framework |
+| 🎬 **GSAP** | `3.13.0` | Professional Animation Library |
+| 🧭 **React Router** | `7.9.4` | Single Page App Routing |
+| 🖼️ **Sharp** | `0.34.4` | High-Performance Image Processing |
 
 </div>
 
@@ -217,48 +192,31 @@ npm run dev
 
 <div align="center">
 
-### **✨ Animation Features**
+### ✨ Animation Arsenal
 
 </div>
 
 <br />
 
-<table>
-<tr>
-<td width="33%" align="center">
-<h3>🎬</h3>
-<h4>Stair Transitions</h4>
-<p>Elegant sequential page transitions with GSAP Timeline</p>
-</td>
-<td width="33%" align="center">
-<h3>📜</h3>
-<h4>Scroll Triggers</h4>
-<p>Dynamic parallax and reveal effects using ScrollTrigger</p>
-</td>
-<td width="33%" align="center">
-<h3>🎞️</h3>
-<h4>Image Sequences</h4>
-<p>Frame-by-frame animations synchronized with scroll</p>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center">
-<h3>🃏</h3>
-<h4>Card Stagger</h4>
-<p>Cascading entrance with staggered timing effects</p>
-</td>
-<td width="33%" align="center">
-<h3>🔍</h3>
-<h4>Smooth Scaling</h4>
-<p>Buttery zoom transitions with GSAP Tweens</p>
-</td>
-<td width="33%" align="center">
-<h3>✨</h3>
-<h4>Hover Effects</h4>
-<p>Interactive micro-interactions on user engagement</p>
-</td>
-</tr>
-</table>
+```
+🎬  STAIR TRANSITIONS
+    Elegant sequential page transitions with GSAP Timeline
+
+📜  SCROLL TRIGGERS  
+    Dynamic parallax and reveal effects using ScrollTrigger
+
+🎞️  IMAGE SEQUENCES
+    Frame-by-frame animations synchronized with scroll
+
+🃏  CARD STAGGER
+    Cascading entrance with staggered timing effects
+
+🔍  SMOOTH SCALING
+    Buttery zoom transitions with GSAP Tweens
+
+✨  HOVER EFFECTS
+    Interactive micro-interactions on user engagement
+```
 
 <br />
 
