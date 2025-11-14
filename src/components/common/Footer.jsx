@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="bg-black text-white mt-3 w-full h-[40vh] p-3 py-5 flex flex-col justify-between max-sm:p-5">
+    <div className="bg-gray-900 text-white mt-3 w-full h-[30vh] p-3 py-5 flex flex-col justify-between max-sm:p-5">
       <div className="flex justify-between items-center">
         <div className="flex justify-center items-center gap-2 text-center text-4xl font-[600] max-sm:text-xl">
           <div className="p-2 border-2 rounded-full w-[7vw] h-[4vw] max-sm:w-[5vh] max-sm:h-[1vh] max-sm:p-3 flex justify-center items-center  hover:border-[#D3FD50]  hover:text-[#D3FD50]  transition-all">
