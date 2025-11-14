@@ -16,6 +16,21 @@
   <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
 </p>
 
+<br />
+
+<!-- Live Demo Button -->
+<p align="center">
+  <a href="https://k72-react-gsap.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_Site-D3FD50?style=for-the-badge&logoColor=black" alt="Live Demo" />
+  </a>
+</p>
+
+<br />
+
+> **💻 Optimized for desktop viewing** — Mobile responsive, but desktop unlocks the full animation magic ✨
+
+<br />
+
 <!-- Quick Links -->
 <p align="center">
   <a href="#-features"><strong>Features</strong></a> •
