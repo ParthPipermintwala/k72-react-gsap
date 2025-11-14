@@ -5,8 +5,15 @@ import gsap from "gsap/all";
 import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 import { NavbarContext } from "../../context/NavContext";
+import blog1 from "../../assets/Photos/FullNavigation_Photos/blog1-min.webp";
+import blog2 from "../../assets/Photos/FullNavigation_Photos/blog2-min.webp";
+import work1 from "../../assets/Photos/FullNavigation_Photos/work1.webp";
+import work2 from "../../assets/Photos/FullNavigation_Photos/work2.webp";
+import agency1 from "../../assets/Photos/FullNavigation_Photos/agency1-min.webp";
+import agency2 from "../../assets/Photos/FullNavigation_Photos/agency2-min.webp";
+import heart from "../../assets/Photos/FullNavigation_Photos/heart.svg";
 
-function FullScreenNav() {
+export default function FullScreenNav() {
   const [, setNavOpen] = useContext(NavbarContext);
   const stairRef = useRef(null);
   const linksRef = useRef(null);
@@ -70,11 +77,8 @@ function FullScreenNav() {
       >
         <NavBarLink
           title="HOME"
-          src={[
-            "src/assets/Photos/FullNavigation_Photos/blog1-min.webp",
-            "src/assets/Photos/FullNavigation_Photos/blog2-min.webp",
-          ]}
-          tagline="LET’S START HERE"
+          src={[blog1, blog2]}
+          tagline="LET'S START HERE"
           onclick={() => {
             navigate("/");
             setNavOpen(false);
@@ -82,10 +86,7 @@ function FullScreenNav() {
         />
         <NavBarLink
           title="WORK"
-          src={[
-            "src/assets/Photos/FullNavigation_Photos/work1.webp",
-            "src/assets/Photos/FullNavigation_Photos/work2.webp",
-          ]}
+          src={[work1, work2]}
           tagline="SEE EVERYTHING"
           onclick={() => {
             navigate("/Project");
@@ -94,10 +95,7 @@ function FullScreenNav() {
         />
         <NavBarLink
           title="AGENCY"
-          src={[
-            "src/assets/Photos/FullNavigation_Photos/agency1-min.webp",
-            "src/assets/Photos/FullNavigation_Photos/agency2-min.webp",
-          ]}
+          src={[agency1, agency2]}
           tagline="KNOW US"
           onclick={() => {
             navigate("/Agence");
@@ -106,10 +104,7 @@ function FullScreenNav() {
         />
         <NavBarLink
           title="CONTACT"
-          src={[
-            "src/assets/Photos/FullNavigation_Photos/heart.svg",
-            "src/assets/Photos/FullNavigation_Photos/heart.svg",
-          ]}
+          src={[heart, heart]}
           tagline="SEND US A FAX"
           imgWidth="w-1/16"
           onclick={() => {
@@ -121,5 +116,3 @@ function FullScreenNav() {
     </div>
   );
 }
-
-export default FullScreenNav;

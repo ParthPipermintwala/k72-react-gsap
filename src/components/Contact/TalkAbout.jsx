@@ -1,4 +1,5 @@
 import NavBarLink from "../Navigation/NavBarLink.jsx";
+import heart from "../../assets/Photos/FullNavigation_Photos/heart.svg";
 export default function TalkAbout({ about }) {
   return (
     <>
@@ -20,10 +21,7 @@ export default function TalkAbout({ about }) {
       <div className="mt-25 -ml-10 w-[120vw] overflow-hidden routatediv max-md:mt-8">
         <NavBarLink
           title="CONTACT"
-          src={[
-            "src/assets/Photos/FullNavigation_Photos/heart.svg",
-            "src/assets/Photos/FullNavigation_Photos/heart.svg",
-          ]}
+          src={[heart, heart]}
           tagline="PARTHPIPERMINTWALA@GMAIL.COM"
           isContact={true}
           imgWidth="w-1/16"

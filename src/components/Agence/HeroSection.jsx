@@ -1,6 +1,20 @@
 import { useGSAP } from "@gsap/react";
 import gsap, { ScrollTrigger } from "gsap/all";
 import { useRef } from "react";
+import img1 from "../../assets/Photos/Agence_Photos/image_1761532623624_compressed.webp";
+import img2 from "../../assets/Photos/Agence_Photos/image_1761532623096_compressed.webp";
+import img3 from "../../assets/Photos/Agence_Photos/image_1761532624132_compressed.webp";
+import img4 from "../../assets/Photos/Agence_Photos/image_1761532624636_compressed.webp";
+import img5 from "../../assets/Photos/Agence_Photos/image_1761532625150_compressed.webp";
+import img6 from "../../assets/Photos/Agence_Photos/image_1761532626184_compressed.webp";
+import img7 from "../../assets/Photos/Agence_Photos/image_1761532626689_compressed.webp";
+import img8 from "../../assets/Photos/Agence_Photos/image_1761532627193_compressed.webp";
+import img9 from "../../assets/Photos/Agence_Photos/image_1761532627702_compressed.webp";
+import img10 from "../../assets/Photos/Agence_Photos/image_1761532628212_compressed.webp";
+import img11 from "../../assets/Photos/Agence_Photos/image_1761532628732_compressed.webp";
+import img12 from "../../assets/Photos/Agence_Photos/image_1761532629251_compressed.webp";
+import img13 from "../../assets/Photos/Agence_Photos/image_1761532629763_compressed.webp";
+import img14 from "../../assets/Photos/Agence_Photos/image_1761532625668_compressed.webp";
 
 export default function HeroSection() {
   const imgdivRef = useRef(null);
@@ -8,20 +22,20 @@ export default function HeroSection() {
   const contentRef = useRef(null);
   const textDiv = useRef(null);
   const imageArray = [
-    "src/assets/Photos/Agence_Photos/image_1761532623624_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532623096_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532624132_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532624636_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532625150_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532626184_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532626689_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532627193_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532627702_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532628212_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532628732_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532629251_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532629763_compressed.webp",
-    "src/assets/Photos/Agence_Photos/image_1761532625668_compressed.webp",
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9,
+    img10,
+    img11,
+    img12,
+    img13,
+    img14,
   ];
   gsap.registerPlugin(ScrollTrigger);
   useGSAP(() => {

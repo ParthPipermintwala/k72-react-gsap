@@ -4,6 +4,9 @@ import Post from "../components/Agence/Post";
 import { useGSAP } from "@gsap/react";
 import gsap, { ScrollTrigger } from "gsap/all";
 import Footer from "../components/common/Footer";
+import post1 from "../assets/Photos/Agence_Photos/post1.jpg";
+import post2 from "../assets/Photos/Agence_Photos/post2.jpg";
+import post3 from "../assets/Photos/Agence_Photos/post3.jpg";
 
 export function Component() {
   gsap.registerPlugin(ScrollTrigger);
@@ -46,7 +49,7 @@ export function Component() {
       <div ref={postDiv} className="relative h-screen">
         <div className="absolute flex items-center justify-center post-1 z-10 w-screen h-screen post">
           <Post
-            src="src/assets/Photos/Agence_Photos/post1.jpg"
+            src={post1}
             fname="JOËL"
             lname="LETARTE"
             role="Associate Creative Director"
@@ -55,7 +58,7 @@ export function Component() {
 
         <div className="absolute flex items-center justify-center post-2 z-30 w-screen h-screen post">
           <Post
-            src="src/assets/Photos/Agence_Photos/post2.jpg"
+            src={post2}
             fname="MARIE-ÈVE"
             lname="LAVOIE"
             role="Creative Director"
@@ -63,12 +66,7 @@ export function Component() {
         </div>
 
         <div className="absolute flex items-center justify-center post-3 z-50 w-screen h-screen post">
-          <Post
-            src="src/assets/Photos/Agence_Photos/post3.jpg"
-            fname="ALEX"
-            lname="BROWN"
-            role="Producer"
-          />
+          <Post src={post3} fname="ALEX" lname="BROWN" role="Producer" />
         </div>
       </div>
       <Footer />
