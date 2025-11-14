@@ -97,7 +97,6 @@ export default function HeroSection() {
           ref={imgRef}
           className="h-full object-cover w-full"
           src={imageArray[0]}
-          loading="lazy"
         />
       </div>
       <div className="relative" ref={contentRef}>
