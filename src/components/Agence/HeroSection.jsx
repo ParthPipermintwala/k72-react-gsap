@@ -122,7 +122,7 @@ export default function HeroSection() {
         </div>
         <div className="pl-[42%] max-lg:pl-[25%] pr-9 max-md:px-5 font-[font1] mt-20 max-sm:mt-72 ">
           <p
-            className="text-4xl max-md:text-2xl hyphens-auto indent-[12vw] max-md:indent-[18vw] text-white"
+            className="text-4xl max-md:text-2xl hyphens-auto text-justify indent-[12vw] max-md:indent-[18vw] text-white"
             ref={textDiv}
           >
             We're inquisitive and open-minded, and we make sure creativity
