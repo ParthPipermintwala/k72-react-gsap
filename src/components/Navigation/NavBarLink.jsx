@@ -1,7 +1,14 @@
 import { gsap } from "gsap";
 import { useRef, Fragment } from "react";
 
-function NavBarLink({ title, src, tagline, onclick,isContact = false, imgWidth="w-1/5" }) {
+function NavBarLink({
+  title,
+  src,
+  tagline,
+  onclick,
+  isContact = false,
+  imgWidth = "w-1/5",
+}) {
   const arr = Array(5).fill(undefined);
   const boxRef = useRef(null);
   const handleHoverEnter = (e) => {
@@ -35,7 +42,7 @@ function NavBarLink({ title, src, tagline, onclick,isContact = false, imgWidth="
       {...(isContact
         ? {}
         : { onMouseEnter: handleHoverEnter, onMouseLeave: handleHoverLeave })}
-        onClick={onclick}
+      onClick={onclick}
     >
       <h1 className="text-center text-[8vw] font-bold leading-[0.9] pt-6 max-xl:pt-3 max-sm:pt-2 max-sm:leading-[1]">
         {title}
@@ -58,6 +65,7 @@ function NavBarLink({ title, src, tagline, onclick,isContact = false, imgWidth="
                   className={`h-10/12 ${imgWidth} rounded-full flex-shrink-0 z-50`}
                   src={src[0]}
                   alt="nav image 0"
+                  loading="lazy"
                 />
                 <h2 className="text-center text-[8vw] font-bold leading-[0.8] pt-5 max-xl:pt-3 max-sm:pt-2 max-sm:leading-[1] flex-shrink-0 z-50">
                   {tagline}
@@ -66,6 +74,7 @@ function NavBarLink({ title, src, tagline, onclick,isContact = false, imgWidth="
                   className={`h-10/12 ${imgWidth} rounded-full flex-shrink-0 z-50`}
                   src={src[1]}
                   alt="nav image 1"
+                  loading="lazy"
                 />
               </Fragment>
             ))}

@@ -29,6 +29,7 @@ export default function Footer() {
           src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=D3FD50&center=true&vCenter=true&multiline=false&repeat=true&width=380&lines=Created+by+Parth+Pipermintwala"
           alt="Author"
           className=""
+          loading="lazy"
         />
         <div className="flex justify-center items-center uppercase text-sm font-[400] gap-6 max-sm:hidden">
           <p>privacy policy</p>
