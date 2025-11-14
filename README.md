@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" alt="GSAP" />
+  <img src="https://img.shields.io/badge/GSAP-2C2C2C?style=for-the-badge&logo=greensock&logoColor=88CE02" alt="GSAP" />
   <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
 </p>
 
@@ -36,8 +36,9 @@
 
 ## ✨ Features
 
-<div>
-<div style="display: inline-block; width: 49%; vertical-align: top;">
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ### 🎬 Silky Animations
 ```
@@ -49,7 +50,8 @@
 🎯 Interactive micro-interactions
 ```
 
-</div><div style="display: inline-block; width: 49%; vertical-align: top;">
+</td>
+<td width="50%" valign="top">
 
 ### 🚀 Blazing Performance
 ```
@@ -61,8 +63,10 @@
 🎯 Sub-second page loads
 ```
 
-</div>
-<div style="display: inline-block; width: 49%; vertical-align: top;">
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 ### 💎 Modern Design
 ```
@@ -74,7 +78,8 @@
 🖌️ Typography excellence
 ```
 
-</div><div style="display: inline-block; width: 49%; vertical-align: top;">
+</td>
+<td width="50%" valign="top">
 
 ### 🛠️ Dev Experience
 ```
@@ -86,8 +91,9 @@
 🔧 Easy customization
 ```
 
-</div>
-</div>
+</td>
+</tr>
+</table>
 
 <br />
 
@@ -122,17 +128,17 @@
 
 <div align="center">
 
-### **⚡ Built With Modern Technologies**
+### ⚡ Built With Modern Technologies
 
 <br />
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" title="React 19" style="margin: 0 10px;" />
-  <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" title="Vite 7" style="margin: 0 10px;" />
-  <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" title="Tailwind CSS" style="margin: 0 10px;" />
-  <img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript" title="JavaScript" style="margin: 0 10px;" />
-  <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" title="HTML5" style="margin: 0 10px;" />
-  <img src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg" width="48" height="48" alt="GSAP" title="GSAP" style="margin: 0 10px;" />
+  <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" title="React 19" />&nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" title="Vite 7" />&nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind" title="Tailwind CSS" />&nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=javascript" width="48" height="48" alt="JavaScript" title="JavaScript" />&nbsp;&nbsp;&nbsp;
+  <img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML5" title="HTML5" />&nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/gsap-greensock.svg" width="48" height="48" alt="GSAP" title="GSAP" />
 </p>
 
 <br />
@@ -168,8 +174,8 @@
 
 ```bash
 # 📥 Step 1: Clone the repository
-git clone <repository-url>
-cd k72
+git clone https://github.com/ParthPipermintwala/k72-react-gsap.git
+cd k72-react-gsap
 
 # 📦 Step 2: Install dependencies
 npm install
@@ -217,38 +223,42 @@ npm run dev
 
 <br />
 
-<div align="center">
-  <div style="display: inline-block; width: 30%; text-align: center; vertical-align: top; margin: 10px;">
-    <h3>🎬</h3>
-    <h4>Stair Transitions</h4>
-    <p>Elegant sequential page transitions with GSAP Timeline</p>
-  </div>
-  <div style="display: inline-block; width: 30%; text-align: center; vertical-align: top; margin: 10px;">
-    <h3>📜</h3>
-    <h4>Scroll Triggers</h4>
-    <p>Dynamic parallax and reveal effects using ScrollTrigger</p>
-  </div>
-  <div style="display: inline-block; width: 30%; text-align: center; vertical-align: top; margin: 10px;">
-    <h3>🎞️</h3>
-    <h4>Image Sequences</h4>
-    <p>Frame-by-frame animations synchronized with scroll</p>
-  </div>
-  <div style="display: inline-block; width: 30%; text-align: center; vertical-align: top; margin: 10px;">
-    <h3>🃏</h3>
-    <h4>Card Stagger</h4>
-    <p>Cascading entrance with staggered timing effects</p>
-  </div>
-  <div style="display: inline-block; width: 30%; text-align: center; vertical-align: top; margin: 10px;">
-    <h3>🔍</h3>
-    <h4>Smooth Scaling</h4>
-    <p>Buttery zoom transitions with GSAP Tweens</p>
-  </div>
-  <div style="display: inline-block; width: 30%; text-align: center; vertical-align: top; margin: 10px;">
-    <h3>✨</h3>
-    <h4>Hover Effects</h4>
-    <p>Interactive micro-interactions on user engagement</p>
-  </div>
-</div>
+<table>
+<tr>
+<td width="33%" align="center">
+<h3>🎬</h3>
+<h4>Stair Transitions</h4>
+<p>Elegant sequential page transitions with GSAP Timeline</p>
+</td>
+<td width="33%" align="center">
+<h3>📜</h3>
+<h4>Scroll Triggers</h4>
+<p>Dynamic parallax and reveal effects using ScrollTrigger</p>
+</td>
+<td width="33%" align="center">
+<h3>🎞️</h3>
+<h4>Image Sequences</h4>
+<p>Frame-by-frame animations synchronized with scroll</p>
+</td>
+</tr>
+<tr>
+<td width="33%" align="center">
+<h3>🃏</h3>
+<h4>Card Stagger</h4>
+<p>Cascading entrance with staggered timing effects</p>
+</td>
+<td width="33%" align="center">
+<h3>🔍</h3>
+<h4>Smooth Scaling</h4>
+<p>Buttery zoom transitions with GSAP Tweens</p>
+</td>
+<td width="33%" align="center">
+<h3>✨</h3>
+<h4>Hover Effects</h4>
+<p>Interactive micro-interactions on user engagement</p>
+</td>
+</tr>
+</table>
 
 <br />
 
@@ -262,7 +272,7 @@ npm run dev
 
 <div align="center">
 
-### **🏗️ Project Architecture**
+### 🗂️ Project Organization
 
 </div>
 
@@ -345,11 +355,13 @@ npm run dev
 
 <div align="center">
 
+<br />
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="48" height="48" alt="Chrome" title="Chrome - Latest" style="margin: 0 15px;" />
-  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="48" height="48" alt="Firefox" title="Firefox - Latest" style="margin: 0 15px;" />
-  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" width="48" height="48" alt="Safari" title="Safari - Latest" style="margin: 0 15px;" />
-  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" width="48" height="48" alt="Edge" title="Edge - Latest" style="margin: 0 15px;" />
+  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" width="48" height="48" alt="Chrome" title="Chrome - Latest" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" width="48" height="48" alt="Firefox" title="Firefox - Latest" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" width="48" height="48" alt="Safari" title="Safari - Latest" />&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" width="48" height="48" alt="Edge" title="Edge - Latest" />
 </p>
 
 <p align="center">
@@ -404,13 +416,13 @@ npm run dev
 <br />
 
 <p>
-  <a href="/">
+  <a href="https://github.com/ParthPipermintwala/k72-react-gsap">
     <img src="https://img.shields.io/badge/Portfolio-K72-D3FD50?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="/">
+  <a href="https://www.linkedin.com/in/parth-pipermintwala-403a82367/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="/">
+  <a href="https://github.com/ParthPipermintwala">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 </p>
