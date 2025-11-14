@@ -2,41 +2,43 @@
 @font-face {
   font-family: font1;
   src: url(/fonts/Lausanne-300.woff2);
+  font-display: swap;
 }
 @font-face {
   font-family: font2;
   src: url(/fonts/Lausanne-500.woff2);
+  font-display: swap;
 }
-.moveX{
+.moveX {
   animation: moveAnimation 25s linear infinite;
 }
-.agencyMove1{
+.agencyMove1 {
   animation: moveAnimationAgency1 10s linear infinite;
 }
-.agencyMove2{
+.agencyMove2 {
   animation: moveAnimationAgency2 10s linear infinite;
 }
 @keyframes moveAnimation {
-  from{
+  from {
     transform: translateX(0);
   }
-  to{
+  to {
     transform: translateX(-570%);
   }
 }
 @keyframes moveAnimationAgency1 {
-  from{
+  from {
     transform: translateX(0);
   }
-  to{
+  to {
     transform: translateX(-100%);
   }
 }
 @keyframes moveAnimationAgency2 {
-  from{
+  from {
     transform: translateX(0);
   }
-  to{
+  to {
     transform: translateX(180%);
   }
 }
