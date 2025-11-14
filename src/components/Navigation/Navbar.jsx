@@ -3,8 +3,8 @@ import gsap, { ScrollTrigger } from "gsap/all";
 import { useContext, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { NavbarContext } from "../../context/NavContext";
-import Logo from "../common/logo.jsx";
-import Close from "../common/close.jsx";
+import Logo from "../common/Logo.jsx";
+import Close from "../common/Close.jsx";
 
 import MenuContainer from "./MenuContainer.jsx";
 const Navbar = () => {
@@ -50,7 +50,7 @@ const Navbar = () => {
             } else if (self.scroll() > 0) {
               gsap.to(".menu h2", { opacity: 0, duration: 0 });
               gsap.to(".mainMenu h2", { opacity: 0, duration: 0 });
-              gsap.to(".menu", { y: "-100%"});
+              gsap.to(".menu", { y: "-100%" });
               gsap.to(".mainMenu", { height: "50px" });
             }
           },
