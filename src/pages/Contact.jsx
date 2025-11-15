@@ -32,7 +32,7 @@ export function Component() {
 
   return (
     <div
-      className="bg-black text-white max-w-screen overflow-hidden min-h-screen cursor-pointer pb-10"
+      className="bg-black text-white max-w-screen overflow-hidden min-h-screen  pb-10"
       ref={current}
     >
       <TalkAbout about="your project" />
