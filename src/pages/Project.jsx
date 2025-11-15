@@ -8,7 +8,7 @@ export function Component() {
   const current = useRef(null);
 
   useGSAP(() => {
-    gsap.from(current.current, { scale: 1.5, delay: 0.83, duration: 0.6 });
+    gsap.from(current.current, { scale: 1.9, delay: 0.85, duration: 0.7 });
   });
 
   return (

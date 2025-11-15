@@ -41,15 +41,15 @@ export default function HeroSection() {
   useGSAP(() => {
     let mm = gsap.matchMedia();
     gsap.from(contentRef.current, {
-      scale: 1.5,
-      delay: 0.8,
-      duration: 0.6,
+      scale: 1.9,
+      delay: 0.85,
+      duration: 0.7,
     });
     gsap.from(imgRef.current, {
       scale: 1.9,
-      delay: 0.8,
+      delay: 0.85,
       opacity: 0,
-      duration: 0.6,
+      duration: 0.7,
     });
 
     mm.add("(min-width: 751px)", () => {
