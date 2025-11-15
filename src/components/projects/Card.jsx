@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Card({ src }) {
   return (
-    <div className="w-1/2 h-full relative hover:rounded-4xl transition-all overflow-hidden group max-sm:w-full rounded-xs">
+    <div className="w-1/2 h-full relative hover:rounded-4xl transition-all overflow-hidden group max-sm:w-full rounded-xs cursor-pointer">
       <img
         src={src}
         alt=""

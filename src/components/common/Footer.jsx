@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="bg-gray-950 text-white mt-3 w-full h-[30vh] p-3 py-5 flex flex-col justify-between max-sm:p-5 max-sm:h-[20vh]">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center cursor-pointer">
         <div className="flex justify-center items-center gap-2 text-center text-4xl font-[600] max-sm:text-xl">
           <div className="p-2 border-2 rounded-full w-[7vw] h-[4vw] max-sm:w-[5vh] max-sm:h-[1vh] max-sm:p-3 flex justify-center items-center  hover:border-[#D3FD50]  hover:text-[#D3FD50]  transition-all">
             <p>IN</p>
@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="uppercase flex justify-between items-center max-sm:flex-col max-sm:gap-1">
+      <div className="uppercase flex justify-between items-center max-sm:flex-col max-sm:gap-1 cursor-pointer">
         <img
           src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=D3FD50&center=true&vCenter=true&multiline=false&repeat=true&width=380&lines=Created+by+Parth+Pipermintwala"
           alt="Author"
