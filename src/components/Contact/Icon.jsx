@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Icon() {
   return (
-    <div className="mt-25">
-      <p className="uppercase text-md text-center font-[font2] my-5 cursor-pointer">
+    <div className="mt-25 cursor-pointer">
+      <p className="uppercase text-md text-center font-[font2] my-5">
         Follow us
       </p>
       <div className="flex justify-center items-center gap-2 text-center text-4xl font-[600]">
