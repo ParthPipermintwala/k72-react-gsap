@@ -64,7 +64,7 @@ const Navbar = () => {
   }, [currentPath]);
   return (
     <div
-      className="flex fixed top-0 w-screen items-start justify-between z-10 overflow-hidden "
+      className="flex fixed top-0 w-screen items-start justify-between z-10 overflow-hidden cursor-pointer"
       ref={navRef}
     >
       <Logo />
