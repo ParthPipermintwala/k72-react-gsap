@@ -7,7 +7,7 @@ import Loading from "./components/common/Loading";
 import { useEffect, useState } from "react";
 const App = () => {
   const navigation = useNavigation();
-   const [showLoader, setShowLoader] = useState(true);
+  const [showLoader, setShowLoader] = useState(true);
   useEffect(() => {
     if (navigation.state === "loading") {
       setShowLoader(true);
@@ -16,6 +16,14 @@ const App = () => {
       return () => clearTimeout(t);
     }
   }, [navigation.state]);
+  useEffect(() => {
+    const handleContextMenu = (e) => e.preventDefault();
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    return () => {
+      document.removeEventListener("contextmenu", handleContextMenu);
+    };
+  }, []);
 
   return (
     <NavContext>
