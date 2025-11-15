@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" background="black">
 
 <!-- Logo/Banner Area -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=70&duration=2000&pause=1000&color=D3FD50&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=100&lines=K72" alt="K72" />
@@ -389,8 +389,8 @@ npm run dev
 <br />
 
 <p>
-  <a href="https://github.com/ParthPipermintwala/k72-react-gsap">
-    <img src="https://img.shields.io/badge/Portfolio-K72-D3FD50?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  <a href="mailto:parthpipermintwala9@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-contact-D3FD50?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
   <a href="https://www.linkedin.com/in/parth-pipermintwala-403a82367/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
